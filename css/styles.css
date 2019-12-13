@@ -1,0 +1,166 @@
+html{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.single-item {
+	width: 550px;
+}
+.wrapper {
+	margin-left: calc(50% - 275px);
+	margin-top: 90px;
+	width: 550px;
+}
+.slick-prev, .slick-next {
+	width: 100%;
+	height: 110%;
+	margin:0 -96%;
+}
+.slick-next:before, .slick-next:after {
+	display: none;
+}
+.right, .left {
+	position: absolute;
+	top: calc(50% - 30px);
+}
+.right {
+	left: 75%;
+}
+.left {
+	right: 75%;
+}
+.arrow, .arrow2 {
+	width: 80px;
+}
+.arrow {
+	transform: scale(-1, 1);
+}
+.logo {
+	width: 610px;
+	height: 120px;
+	position: relative;
+	margin-top: -100px;
+	margin-left: -7%;
+}
+.logo_img {
+	width: 350px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.contakt {
+	position: absolute;
+	right: 0;
+	top: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Calibri;
+	text-align: right;
+}
+p{
+	margin: 3px;
+}
+@media screen and (max-width: 1120px) {
+	.logo {
+		width: 510px;
+		margin-left: 3%;
+	}
+	.right {
+		left: 85%;
+	}
+	.left {
+		right: 85%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.right {
+		left: 87%;
+	}
+	.left {
+		right: 87%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.single-item {
+		width: 450px;
+	}
+	.wrapper {
+		margin-left: calc(50% - 225px);
+	}
+	.right, .left {
+		position: absolute;
+		top: calc(50% - 100px);
+	}
+	.logo {
+		width: 450px;
+		margin-left: 0;
+	}
+	.logo_img {
+		width: 250px;
+		top: 30px;
+	}
+	.arrow, .arrow2 {
+		display: none;
+	}
+}
+@media screen and (max-width: 520px) {
+	.single-item {
+		width: 350px;
+	}
+	.wrapper {
+		margin-left: calc(50% - 175px);
+	}
+	.right, .left {
+		position: absolute;
+		top: calc(50% - 180px);
+	}
+	.logo {
+		width: 350px;
+		margin-left: 0;
+	}
+	.logo_img {
+		width: 150px;
+		top: 30px;
+	}
+	.arrow, .arrow2 {
+		display: none;
+	}
+}
+@media screen and (max-width: 380px) {
+	.single-item {
+		width: 280px;
+		margin-top: -25px
+	}
+	.wrapper {
+		margin-left: calc(50% - 140px);
+	}
+	.logo_img {
+		display: none;
+	}
+	.contakt {
+		text-align: center;
+		font-size: 16px;
+		left: calc(50% - 225px);
+	}
+}
+
