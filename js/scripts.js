@@ -6,7 +6,9 @@ $(function(){
 		autoplaySpeed: 2000,
 		pauseOnFocus: true,
 		pauseOnHover: false,
-		
+		lazyLoad: 'progressive',
+	    slidesToShow: 1,
+	    slidesToScroll: 1
   
 	});
 	 
